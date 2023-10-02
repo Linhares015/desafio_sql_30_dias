@@ -2,8 +2,6 @@
 
 ### Aplicação prática do Curso SQL Master
 
-[Sql Master Gratuito](https://github.com/Linhares015/curso_sql)
-
 <p align="center">
   <img src="imagens/capa.jpeg" width="500" height="300">
 </p>
@@ -13,6 +11,7 @@
     - Nome: Tiago Linhares;
     - Cargo: Analytics Engineer;
     - Experiência: 2 anos de TI, focado em Dados;
+    - [Curso Sql Master Gratuito](https://github.com/Linhares015/curso_sql)
     - [Meu Linkedin](https://www.linkedin.com/in/tiago-linhares/)
     - [Meu Github](https://github.com/Linhares015)
     - [Meu Livro - Guia para se Tornar um Analista de Dados](https://www.amazon.com.br/dp/B0CDDFZMLD?ref_=cm_sw_r_mwn_dp_VT4QMG06XS904M6EEQ3A)
@@ -80,6 +79,7 @@ Lembrando que o user é `postgres` e a senha pode mudar em `my_password`
 - [Dia 30: Revisão e Feedback](#dia-30-revisão-e-feedback)
 
 ## Dia 1: Introdução ao Banco de Dados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Familiarizar-se com a estrutura básica do banco de dados e aprender a fazer consultas simples.
 
@@ -111,6 +111,7 @@ FROM Production.Product;
 </details>
 
 ## Dia 2: Filtrando Dados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprofundar o entendimento sobre como filtrar registros em uma tabela usando critérios específicos.
 
@@ -143,6 +144,7 @@ WHERE City = 'Seattle';
 </details>
 
 ## Dia 3: Ordenação de Resultados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Compreender como ordenar os resultados de uma consulta para facilitar a análise e apresentação dos dados.
 
@@ -178,6 +180,7 @@ ORDER BY FirstName, LastName
 Neste desafio, você aprendeu a importância de ordenar os resultados para facilitar a leitura e análise dos dados. Nos próximos dias, você explorará técnicas mais avançadas para manipular e apresentar dados usando SQL.
 
 ## Dia 4: Funções de Agregação Básicas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de funções de agregação e como elas podem ser usadas para resumir grandes volumes de dados.
 
@@ -211,6 +214,7 @@ FROM Production.Product;
 Com este desafio, você começou a explorar as poderosas funções de agregação do SQL, que são essenciais para resumir e analisar grandes conjuntos de dados. Nos próximos dias, você se aprofundará em técnicas mais avançadas e aprenderá a combinar várias funções e cláusulas para obter insights mais profundos dos seus dados.
 
 ## Dia 5: Agrupando Dados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprender a agrupar dados com base em colunas específicas e combinar isso com funções de agregação para obter resumos informativos dos dados.
 
@@ -247,6 +251,7 @@ GROUP BY Color;
 Neste desafio, você aprendeu a agrupar dados com base em uma coluna específica e a usar funções de agregação para obter um resumo dos dados. Isso é uma habilidade fundamental para analisar e entender grandes conjuntos de dados. Nos próximos dias, você se aprofundará em técnicas mais avançadas e aprenderá a combinar várias funções e cláusulas para obter insights mais profundos dos seus dados.
 
 ## Dia 6: Joins Básicos
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de joins, que permitem combinar dados de duas ou mais tabelas com base em uma coluna relacionada entre elas.
 
@@ -283,6 +288,7 @@ INNER JOIN Production.ProductCategory PC ON PS.ProductCategoryID = PC.ProductCat
 Com este desafio, você deu o primeiro passo para entender como os joins funcionam em SQL. Eles são essenciais para combinar dados de diferentes tabelas e obter uma visão mais completa dos dados. Nos próximos dias, você explorará diferentes tipos de joins e aprenderá a usar cada um deles de acordo com suas necessidades específicas.
 
 ## Dia 7: Subconsultas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de subconsultas, que são consultas SQL aninhadas dentro de outra consulta. Elas são úteis para resolver consultas complexas que requerem várias etapas.
 
@@ -325,6 +331,7 @@ WHERE C.CustomerID IN (
 Com este desafio, você começou a explorar o poder das subconsultas em SQL. Elas são uma ferramenta valiosa para resolver problemas que não podem ser facilmente resolvidos com uma única consulta. À medida que você avança em sua jornada de aprendizado SQL, você encontrará muitos cenários em que as subconsultas são indispensáveis. Nos próximos dias, você se aprofundará em técnicas mais avançadas e aprenderá a combinar várias funções e cláusulas para obter insights mais profundos dos seus dados.
 
 ## Dia 8: Funções de Data
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de funções de data, que permitem manipular e consultar dados com base em datas e horários.
 
@@ -361,6 +368,7 @@ WHERE MONTH(OrderDate) = 1 AND YEAR(OrderDate) = 2014;
 Neste desafio, você explorou o poder das funções de data em SQL. Elas são essenciais para filtrar, agrupar e analisar dados com base em datas e horários. À medida que você avança em sua jornada de aprendizado SQL, você descobrirá que muitas análises e relatórios dependem fortemente de funções de data para fornecer insights oportunos e relevantes. Nos próximos dias, você se aprofundará em técnicas mais avançadas e aprenderá a combinar várias funções e cláusulas para obter insights mais profundos dos seus dados.
 
 ## Dia 9: Paginação de Resultados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de paginação de resultados, que permite exibir um subconjunto de registros de uma consulta, tornando mais gerenciável a visualização de grandes conjuntos de dados.
 
@@ -418,6 +426,7 @@ E assim por diante, aumentando o valor do OFFSET em 50 para cada página subsequ
 Neste desafio, você explorou o conceito de paginação de resultados em SQL. A capacidade de paginar resultados é essencial ao trabalhar com grandes conjuntos de dados, pois permite que os usuários visualizem e gerenciem os dados de maneira mais eficaz. À medida que você avança em sua jornada de aprendizado SQL, você descobrirá que a paginação é uma técnica comum usada em muitas aplicações de banco de dados para melhorar a experiência do usuário. Nos próximos dias, você se aprofundará em técnicas mais avançadas e aprenderá a combinar várias funções e cláusulas para obter insights mais profundos dos seus dados.
 
 ## Dia 10: Joins Avançados
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprofundar o entendimento sobre joins, explorando combinações mais complexas que envolvem múltiplas tabelas.
 
@@ -460,6 +469,8 @@ ORDER BY S.SalesOrderID;
 Neste desafio, você explorou o poder dos joins avançados em SQL. Ao combinar informações de várias tabelas, você pode obter uma visão mais completa e detalhada dos dados. Esta é uma habilidade essencial para analistas de dados e desenvolvedores de banco de dados, pois permite criar relatórios e análises mais ricos e informativos. Nos próximos dias, você continuará a explorar técnicas avançadas e aprenderá a otimizar suas consultas para obter o máximo de desempenho e eficiência.
 
 ## Dia 11: Funções de String
+[V[Voltar ao Topo](#menu)
+oltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir funções de manipulação de strings e demonstrar como elas podem ser usadas para filtrar e transformar dados baseados em critérios de texto.
 
@@ -496,6 +507,7 @@ WHERE CHARINDEX('bike', Name) > 0;
 Neste desafio, você explorou uma das muitas funções de string disponíveis no SQL Server. As funções de string são ferramentas poderosas que permitem aos analistas de dados filtrar, transformar e analisar dados baseados em critérios de texto. Ao dominar essas funções, você será capaz de realizar análises mais complexas e obter insights mais profundos dos seus dados. Nos próximos dias, você continuará a explorar funções e técnicas avançadas, ampliando ainda mais seu conjunto de habilidades em SQL.
 
 ## Dia 12: CTEs e Subconsultas Avançadas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de `Common Table Expressions (CTEs)` e demonstrar como eles podem ser combinados com subconsultas para realizar análises avançadas.
 
@@ -542,6 +554,7 @@ ORDER BY CustomerID, OrderDate;
 Neste desafio, você explorou o poder das CTEs e subconsultas avançadas no SQL Server. Ao combinar essas técnicas, você pode realizar análises mais profundas e obter insights valiosos sobre seus dados. CTEs são especialmente úteis para simplificar e organizar consultas complexas, tornando-as mais legíveis e manuteníveis. Nos próximos dias, você continuará a aprofundar seu conhecimento em técnicas avançadas de SQL, preparando-se para enfrentar desafios ainda mais complexos.
 
 ## Dia 13: Funções de Janela
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de funções de janela e demonstrar como elas podem ser usadas para identificar e lidar com registros duplicados.
 
@@ -584,6 +597,7 @@ WHERE RowNum > 1;
 Neste desafio, você explorou o poder das funções de janela no SQL Server para identificar registros duplicados. Identificar e lidar com registros duplicados é uma tarefa comum em análise de dados e ETL. Ao dominar a função `ROW_NUMBER()`, você terá uma ferramenta poderosa para lidar com esse tipo de situação. Nos próximos dias, você continuará a expandir seu conjunto de habilidades em SQL, abordando tópicos ainda mais avançados.
 
 ## Dia 14: Indexação
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Compreender a importância da indexação para otimizar consultas e aprender a analisar planos de execução para identificar oportunidades de melhoria.
 
@@ -623,6 +637,7 @@ Lembre-se de que a criação de índices pode acelerar as consultas de seleção
 Neste desafio, você teve a oportunidade de mergulhar na otimização de consultas e entender como os índices podem melhorar significativamente o desempenho das consultas. A indexação é uma ferramenta poderosa na caixa de ferramentas de um desenvolvedor ou analista de banco de dados. Ao compreender como e quando usar índices, você pode garantir que suas consultas sejam executadas de maneira eficiente, mesmo em grandes conjuntos de dados. Nos próximos dias, você continuará a expandir seu conjunto de habilidades em SQL, abordando tópicos ainda mais avançados.
 
 ## Dia 15: Triggers
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de `triggers` e demonstrar como eles podem ser usados para monitorar e reagir a alterações em tabelas.
 
@@ -683,6 +698,7 @@ END;
 Ao final deste desafio, você deve ser capaz de entender o propósito dos triggers e como eles podem ser usados para monitorar e reagir a alterações em tabelas. Triggers são uma ferramenta poderosa, mas também complexa. É importante entender quando e como usá-los para garantir que eles sejam benéficos e não prejudiciais ao desempenho do seu banco de dados.
 
 ## Dia 16: Procedures Básicas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de procedures armazenadas e demonstrar como elas podem ser usadas para recuperar informações detalhadas sobre os pedidos de um cliente específico.
 
@@ -740,6 +756,7 @@ END;
 </details>
 
 ## Dia 17: Views Básicas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de views e demonstrar como elas podem ser usadas para simplificar consultas complexas e proporcionar uma camada de abstração sobre as tabelas.
 
@@ -782,6 +799,7 @@ JOIN
 Ao final deste desafio, você deve ser capaz de entender o propósito das views e como elas podem ser usadas para simplificar e otimizar consultas. Views são uma ferramenta essencial para qualquer desenvolvedor ou analista de banco de dados, pois permitem criar uma representação virtual dos dados que pode ser reutilizada em várias consultas.
 
 ## Dia 18: Tabelas Temporárias e Variáveis
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de tabelas temporárias e variáveis e demonstrar como elas podem ser usadas para simplificar e otimizar consultas complexas, dividindo-as em etapas menores e mais gerenciáveis.
 
@@ -864,6 +882,7 @@ DROP TABLE #SalesByCategory;
 Ao final deste desafio, você deve ser capaz de entender a utilidade das tabelas temporárias e variáveis no SQL e como elas podem ser usadas para simplificar e otimizar consultas complexas. Elas são ferramentas essenciais que todo desenvolvedor ou analista de banco de dados deve conhecer e usar adequadamente.
 
 ## Dia 19: Funções Personalizadas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de funções personalizadas no SQL Server e demonstrar como elas podem ser usadas para encapsular lógicas de consulta complexas, tornando-as reutilizáveis.
 
@@ -916,6 +935,7 @@ SELECT dbo.fn_TotalSalesForProduct(707) AS TotalSales;
 Ao final deste desafio, você deve ser capaz de entender a utilidade das funções personalizadas no SQL Server e como elas podem ser usadas para encapsular lógicas de consulta complexas. Funções personalizadas são uma ferramenta essencial que todo desenvolvedor ou analista de banco de dados deve conhecer e usar adequadamente.
 
 ## Dia 20: Procedures Avançadas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprofundar o entendimento sobre procedures no SQL Server e demonstrar como elas podem ser usadas para automatizar tarefas recorrentes, como a geração de relatórios.
 
@@ -984,6 +1004,7 @@ EXEC dbo.sp_MonthlySalesReport @Month = 1, @Year = 2014;
 Ao final deste desafio, você deve ser capaz de entender a utilidade das procedures avançadas no SQL Server e como elas podem ser usadas para automatizar tarefas recorrentes. Procedures são uma ferramenta poderosa que todo desenvolvedor ou analista de banco de dados deve dominar.
 
 ## Dia 21: Views Avançadas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprofundar o entendimento sobre views no SQL Server e demonstrar como elas podem ser usadas para simplificar consultas complexas e análises de tendências.
 
@@ -1040,6 +1061,7 @@ Ao final deste desafio, você deve ser capaz de entender a utilidade das views a
 
 
 ## Dia 22: Erros e Exceções
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de tratamento de erros no SQL Server e demonstrar como lidar com erros e exceções em procedures usando os blocos `TRY`...`CATCH`.
 
@@ -1090,6 +1112,7 @@ Ao executar a procedure, você verá a mensagem de erro personalizada em vez de 
 Ao final deste desafio, você deve ser capaz de entender a importância do tratamento de erros e como implementá-lo no SQL Server. O tratamento adequado de erros não apenas melhora a robustez de suas procedures e scripts, mas também oferece uma melhor experiência ao usuário, fornecendo mensagens de erro claras e ações corretivas sugeridas.
 
 ## Dia 23: Transações
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de transações no SQL Server e demonstrar como elas podem ser usadas para garantir a integridade dos dados durante operações complexas.
 
@@ -1150,6 +1173,7 @@ Ao executar a procedure, se ambas as inserções forem bem-sucedidas, os registr
 Ao final deste desafio, você deve ser capaz de entender a importância das transações e como implementá-las no SQL Server. Transações garantem que as operações sejam `tudo ou nada`, o que é crucial para manter a integridade dos dados em cenários complexos.
 
 ## Dia 24: Otimização de Consultas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Introduzir o conceito de otimização de consultas e demonstrar como o plano de execução pode ser usado para identificar gargalos e melhorar o desempenho das consultas.
 
@@ -1213,6 +1237,7 @@ Ao usar a cláusula JOIN explícita em vez de uma junção implícita, a consult
 Ao final deste desafio, você deve ser capaz de entender a importância da otimização de consultas e como usar o plano de execução como uma ferramenta valiosa para melhorar o desempenho das suas consultas no SQL Server.
 
 ## Dia 25: Análise de Dados com SQL
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprender a usar SQL para extrair insights valiosos a partir dos dados de vendas históricos.
 
@@ -1285,6 +1310,7 @@ LIMIT 5;
 Ao final deste desafio, você deve ser capaz de usar SQL para analisar dados históricos, identificar tendências e extrair insights valiosos que podem ajudar na tomada de decisões.
 
 ## Dia 26: Segurança e Permissões
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Entender a importância da segurança em bancos de dados e aprender a configurar permissões para diferentes papéis (roles) no SQL Server.
 
@@ -1342,6 +1368,7 @@ ALTER ROLE ReadOnlySales ADD MEMBER UserName;
 Ao final deste desafio, você deve compreender a importância da segurança e das permissões em bancos de dados e como configurar permissões para diferentes papéis no SQL Server.
 
 ## Dia 27: Integração com Outras Ferramentas
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Aprender a integrar o SQL Server com ferramentas de Business Intelligence (BI) e visualizar dados de forma mais interativa e significativa.
 
@@ -1396,6 +1423,7 @@ Este passo varia dependendo da ferramenta de BI que você está usando. No entan
 Ao final deste desafio, você deve ser capaz de integrar o SQL Server com ferramentas externas de BI e criar visualizações interativas para análise de dados.
 
 ## Dia 28: Backup e Restauração
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Entender a importância de manter backups regulares do banco de dados e saber como restaurar um banco de dados a partir de um backup.
 
@@ -1444,6 +1472,7 @@ FROM DISK = 'C:\Backup\AdventureWorks.bak';
 Ao final deste desafio, você deve compreender a importância do backup e restauração e ser capaz de executar essas operações essenciais para garantir a segurança e integridade dos seus dados.
 
 ## Dia 29: Desafio Final
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Consolidar e aplicar todos os conceitos aprendidos durante os desafios anteriores em uma análise complexa e abrangente.
 
@@ -1510,6 +1539,7 @@ ORDER BY Receita DESC;
 Ao final deste desafio, você terá uma visão abrangente das capacidades do SQL e de como ele pode ser usado para extrair insights valiosos de um conjunto de dados.
 
 ## Dia 30: Revisão e Feedback
+[Voltar ao Topo](#menu)
 
 - `Objetivo`: Refletir sobre o aprendizado adquirido, revisar os principais conceitos e tópicos abordados e coletar feedback para aprimorar futuras edições do desafio.
 
@@ -1533,6 +1563,7 @@ Ao final deste desafio, você terá uma visão abrangente das capacidades do SQL
 - Dica: O aprendizado é um processo contínuo. Continue praticando, explorando novos recursos e aprofundando seu conhecimento em SQL.
 
 ## Conclusão
+[Voltar ao Topo](#menu)
 
 Ao longo destes 30 dias, mergulhamos profundamente no mundo do SQL e do banco de dados AdventureWorks. Através de desafios diários, abordamos desde os conceitos mais básicos até tópicos avançados, equipando os participantes com as habilidades necessárias para extrair, analisar e manipular dados de forma eficiente.
 
