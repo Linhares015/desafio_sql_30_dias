@@ -94,7 +94,7 @@ Lembrando que o user é `postgres` e a senha pode mudar em `my_password`
 3. No editor de consultas, você deve Listar todos os produtos disponíveis na tabela Product:
     - Resultado esperado: Você deverá ver uma lista de todos os produtos disponíveis na tabela Product, incluindo detalhes como ID do produto, nome, número do produto, cor, preço padrão, entre outros.
 
-![Alt text](image.png)
+![Alt text](imagens/image.png)
 
 - `Dica`: Sempre que estiver trabalhando com uma nova tabela, é uma boa prática verificar primeiro alguns registros para entender a estrutura dos dados. Você pode fazer isso usando o comando `SELECT TOP 10 FROM` para ver apenas os 10 primeiros registros.
 
@@ -125,7 +125,7 @@ FROM Production.Product;
 3. No editor de consultas, você deve encontrar todos os clientes da cidade de `Seattle`:
     - Resultado esperado: A consulta retornará uma lista de todos os endereços que estão localizados na cidade de `Seattle`. Você deve ver uma lista de endereços, incluindo detalhes como ID de endereço, tipo de endereço, cidade, estado, país, entre outros.
 
-![Alt text](image-1.png)
+![Alt text](imagens/image-1.png)
 
 - Dica: A cláusula `WHERE` é uma das ferramentas mais poderosas em SQL, permitindo que você especifique exatamente quais registros deseja recuperar com base em critérios específicos. Familiarize-se com ela, pois será usada frequentemente em suas consultas.
 
@@ -158,7 +158,7 @@ WHERE City = 'Seattle';
         
     - Resultado esperado: A consulta retornará uma lista de todos os nomes de pessoas, ordenados alfabeticamente pelo nome.
 
-![Alt text](image-2.png)
+![Alt text](imagens/image-2.png)
 
 - Dica: A cláusula `ORDER BY` é usada em SQL para ordenar os resultados em ordem `ascendente` ou `descendente` com base em uma ou mais colunas.
 
@@ -192,7 +192,7 @@ Neste desafio, você aprendeu a importância de ordenar os resultados para facil
 3. No editor de consultas, você deve calcular o preço médio de todos os produtos:
     - Resultado esperado: A consulta retornará o preço médio de todos os produtos disponíveis na tabela Product.
 
-![Alt text](image-4.png)
+![Alt text](imagens/image-4.png)
 
 - Dica: A função `AVG()` é uma função de agregação que retorna a média dos valores em um grupo. Lembre-se de que funções de agregação, como `AVG()`, trabalham em conjunto com a cláusula `GROUP BY`, mas neste caso específico, como estamos calculando a média de todos os produtos, não precisamos dela.
 
@@ -225,7 +225,7 @@ Com este desafio, você começou a explorar as poderosas funções de agregaçã
 3. No editor de consultas, você deve encontrar o total de produtos por cor:
     - Resultado esperado: A consulta retornará o número total de produtos para cada cor disponível no banco de dados.
 
-![Alt text](image-5.png)
+![Alt text](imagens/image-5.png)
 
 - Dica: A cláusula `GROUP BY` é usada em SQL para agrupar linhas que têm os mesmos valores em colunas especificadas. Quando combinada com funções de agregação, como `COUNT()`, você pode calcular estatísticas para cada grupo de linhas.
 
@@ -261,7 +261,7 @@ Neste desafio, você aprendeu a agrupar dados com base em uma coluna específica
 3. No editor de consultas, você deve combinar as tabelas Product e ProductCategory para listar os produtos e suas respectivas categorias:
     - Resultado esperado: A consulta retornará uma lista de produtos junto com suas categorias.
 
-![Alt text](image-6.png)
+![Alt text](imagens/image-6.png)
 
 - Dica: O `INNER JOIN` é usado para combinar linhas de duas ou mais tabelas com base em uma coluna relacionada entre elas. Certifique-se de especificar a coluna pela qual as tabelas serão unidas.
 
@@ -297,7 +297,7 @@ Com este desafio, você deu o primeiro passo para entender como os joins funcion
 3. No editor de consultas, você deve identificar os clientes que fizeram mais de 5 pedidos:
     - Resultado esperado: A consulta retornará uma lista de clientes que fizeram mais de 5 pedidos.
 
-![Alt text](image-7.png)
+![Alt text](imagens/image-7.png)
 
 - Dica: `Subconsultas` são frequentemente usadas com operadores `IN`, `EXISTS` ou `ANY`. Elas podem ser usadas em cláusulas `SELECT`, `FROM` e `WHERE`.
 
@@ -339,7 +339,7 @@ Com este desafio, você começou a explorar o poder das subconsultas em SQL. Ela
 3. No editor de consultas, você deve identificar todos os pedidos feitos em janeiro de 2014:
     - Resultado esperado: A consulta retornará uma lista de pedidos feitos em janeiro de 2014, incluindo detalhes como ID do pedido, data do pedido, ID do cliente, entre outros.
 
-![Alt text](image-8.png)
+![Alt text](imagens/image-8.png)
 
 - Dica: O SQL Server fornece várias funções relacionadas à data, como `CAST` e `CONVERT`, que podem ser usadas para formatar e comparar datas.
 
@@ -375,7 +375,7 @@ Neste desafio, você explorou o poder das funções de data em SQL. Elas são es
 3. No editor de consultas, comece listando os primeiros 50 produtos:
     - Resultado esperado: A consulta retornará uma lista dos primeiros 50 produtos disponíveis na tabela Product, incluindo detalhes como ID do produto, nome, número do produto, cor, preço padrão, entre outros.
 
-![Alt text](image-9.png)
+![Alt text](imagens/image-9.png)
 
 - Dica: O SQL Server fornece a cláusula `OFFSET` juntamente com `FETCH` para realizar a paginação de resultados.
 
@@ -432,7 +432,7 @@ Neste desafio, você explorou o conceito de paginação de resultados em SQL. A 
 3. No editor de consultas, você deve combinar informações de vendas com detalhes dos vendedores e clientes:
     - Resultado esperado: A consulta retornará uma lista de vendas, incluindo detalhes como ID da venda, data da venda, nome do vendedor, nome do cliente, entre outros.
 
-![Alt text](image-10.png)
+![Alt text](imagens/image-10.png)
 
 - Dica: Ao trabalhar com múltiplos joins, é uma boa prática usar `alias` para as tabelas, tornando a consulta mais legível.
 
@@ -474,7 +474,7 @@ Neste desafio, você explorou o poder dos joins avançados em SQL. Ao combinar i
 3. No editor de consultas, você deve buscar todos os produtos que contêm a palavra "bike" em seu nome:
     - Resultado esperado: A consulta retornará uma lista de produtos que têm a palavra `bike` em seu nome, incluindo detalhes como ID do produto, nome, número do produto, entre outros.
 
-![Alt text](image-11.png)
+![Alt text](imagens/image-11.png)
 
 - Dica: O SQL Server fornece a função `CHARINDEX` que pode ser usada para encontrar a posição de uma string dentro de outra string. Se o resultado for maior que 0, significa que a string foi encontrada.
 
@@ -510,7 +510,7 @@ Neste desafio, você explorou uma das muitas funções de string disponíveis no
 3. No editor de consultas, você deve usar CTEs para analisar a sequência de pedidos de clientes:
     - Resultado esperado: A consulta retornará uma lista de clientes e a sequência de seus pedidos, mostrando a data de cada pedido e o intervalo de tempo entre eles.
 
-![Alt text](image-12.png)
+![Alt text](imagens/image-12.png)
 
 - Dica: `CTEs` são uma ferramenta poderosa que permite criar consultas temporárias para serem usadas em uma consulta principal. Eles são especialmente úteis para simplificar consultas complexas e torná-las mais legíveis.
 
@@ -556,7 +556,7 @@ Neste desafio, você explorou o poder das CTEs e subconsultas avançadas no SQL 
 3. No editor de consultas, você deve usar a função `ROW_NUMBER()` para identificar produtos com nomes duplicados:
     - Resultado esperado: A consulta retornará uma lista de produtos com nomes duplicados, juntamente com um número de linha que indica a ordem em que o produto aparece.
 
-![Alt text](image-13.png)
+![Alt text](imagens/image-13.png)
 
 - Dica: A função `ROW_NUMBER()` pode ser combinada com a cláusula `PARTITION BY` para reiniciar a contagem de linhas para cada grupo de registros duplicados.
 
@@ -602,7 +602,7 @@ Neste desafio, você explorou o poder das funções de janela no SQL Server para
         
     - Preste atenção especial aos operadores de `Scan`, pois eles indicam que o SQL Server teve que ler uma tabela ou índice inteiro. Um `Seek` geralmente é mais eficiente do que um `Scan`.
 
-![Alt text](image-14.png)
+![Alt text](imagens/image-14.png)
 
 - Dica: Ao analisar o plano de execução, procure por avisos (ícones de triângulo amarelo). Eles podem indicar oportunidades para otimização, como a adição de um índice.
 
@@ -648,7 +648,7 @@ CREATE TABLE ProductPriceHistory (
 
 4. Em seguida, crie um trigger na tabela Product para registrar qualquer alteração no preço dos produtos.
 
-![Alt text](image-15.png)
+![Alt text](imagens/image-15.png)
 
 - Dica: Triggers podem ser poderosos, mas também podem afetar a performance. Use-os com cautela e sempre teste em um ambiente de desenvolvimento antes de aplicar em produção.
 
@@ -702,7 +702,7 @@ Ao final deste desafio, você deve ser capaz de entender o propósito dos trigge
 EXEC sp_DetalhesPedidosCliente @ClienteID = [Insira o ID do Cliente Aqui];
 ```
 
-![Alt text](image-16.png)
+![Alt text](imagens/image-16.png)
 
 - Dica: Procedures armazenadas são úteis para encapsular lógicas de negócios e garantir a consistência das operações. Ao criar procedures, é importante validar os dados de entrada e tratar possíveis erros para garantir a integridade dos dados. Esta procedure em particular ajuda a obter uma visão detalhada dos pedidos de um cliente, o que pode ser útil para análises de vendas, atendimento ao cliente e outras operações de negócios.
 
@@ -753,7 +753,7 @@ END;
 
 3. Crie uma view que combine informações da tabela de produtos e da tabela de detalhes de vendas. Esta view deve mostrar o nome do produto, o número do produto, a quantidade vendida e o preço unitário.
 
-![Alt text](image-17.png)
+![Alt text](imagens/image-17.png)
 
 - Dica: Views são uma excelente maneira de simplificar consultas complexas e fornecer uma interface mais amigável para usuários menos técnicos. Elas também podem ser úteis para impor uma camada de segurança, permitindo que os usuários acessem apenas os dados que eles têm permissão para ver.
 
@@ -797,7 +797,7 @@ Ao final deste desafio, você deve ser capaz de entender o propósito das views 
 
 4. Em seguida, usando a tabela temporária, identifique o produto mais vendido em cada categoria.
 
-![Alt text](image-18.png)
+![Alt text](imagens/image-18.png)
 
 - Dica: Tabelas temporárias e variáveis são extremamente úteis para dividir consultas complexas em etapas menores, tornando-as mais fáceis de entender e otimizar. Elas também são úteis para armazenar resultados intermediários que podem ser reutilizados em várias partes de uma consulta ou procedimento.
 
@@ -877,7 +877,7 @@ Ao final deste desafio, você deve ser capaz de entender a utilidade das tabelas
 
 3. Crie uma função chamada `fn_TotalSalesForProduct` que aceite um `ID de produto` como parâmetro e retorne o total de vendas para esse produto.
 
-![Alt text](image-19.png)
+![Alt text](imagens/image-19.png)
 
 - Dica: Funções personalizadas são uma maneira poderosa de encapsular lógicas de consulta que você usa frequentemente. Elas permitem que você mantenha sua lógica em um único lugar, tornando suas consultas mais limpas e mais fáceis de manter.
 
@@ -930,7 +930,7 @@ Ao final deste desafio, você deve ser capaz de entender a utilidade das funçõ
 3. Crie uma procedure chamada sp_MonthlySalesReport que aceite um mês e um ano como parâmetros e retorne um relatório de vendas para esse mês.
     - Uma vez que a procedure esteja criada, você pode executá-la para obter o relatório de vendas para um mês específico.
 
-![Alt text](image-20.png)
+![Alt text](imagens/image-20.png)
 
 - Dica: Procedures são uma maneira eficaz de encapsular lógicas de consulta que são executadas regularmente. Elas também podem aceitar parâmetros, tornando-as flexíveis e reutilizáveis.
 
@@ -1054,7 +1054,7 @@ Ao final deste desafio, você deve ser capaz de entender a utilidade das views a
 3. Crie uma procedure chamada sp_DivideByZero que tentará dividir um número por zero e capturará esse erro usando um bloco `TRY`...`CATCH`.
     - Execute a procedure para ver o tratamento de erros em ação.
 
-![Alt text](image-21.png)
+![Alt text](imagens/image-21.png)
 
 - Dica: O tratamento de erros é crucial em qualquer aplicação ou script. No SQL Server, o bloco `TRY`...`CATCH` oferece uma maneira robusta de capturar e tratar erros, permitindo que você tome ações específicas quando ocorrerem exceções.
 
@@ -1104,7 +1104,7 @@ Ao final deste desafio, você deve ser capaz de entender a importância do trata
 3. Crie uma procedure chamada sp_InsertWithTransaction que tentará inserir registros em duas tabelas diferentes. Se ocorrer um erro em qualquer uma das inserções, a transação inteira será revertida.
     - Execute a procedure para ver o conceito de transações em ação.
 
-![Alt text](image-22.png)
+![Alt text](imagens/image-22.png)
 
 - Dica: Transações são vitais quando se trabalha com operações que envolvem múltiplas tabelas ou registros. Elas garantem que, se uma parte da operação falhar, todas as alterações feitas durante essa transação sejam revertidas, mantendo a integridade dos dados.
 
