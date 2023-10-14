@@ -11,10 +11,11 @@
     - Nome: Tiago Linhares;
     - Cargo: Analytics Engineer;
     - Experiência: 2 anos de TI, focado em Dados;
-    - [Curso Sql Master Gratuito](https://github.com/Linhares015/curso_sql)
-    - [Meu Linkedin](https://www.linkedin.com/in/tiago-linhares/)
-    - [Meu Github](https://github.com/Linhares015)
-    - [Meu Livro - Guia para se Tornar um Analista de Dados](https://www.amazon.com.br/dp/B0CDDFZMLD?ref_=cm_sw_r_mwn_dp_VT4QMG06XS904M6EEQ3A)
+    - [Meu Blog](https://linhares015.github.io/);
+    - [Curso Sql Master Gratuito](https://github.com/Linhares015/curso_sql);
+    - [Meu Linkedin](https://www.linkedin.com/in/tiago-linhares/);
+    - [Meu Github](https://github.com/Linhares015);
+    - [Meu Livro - Guia para se Tornar um Analista de Dados](https://www.amazon.com.br/dp/B0CDDFZMLD?ref_=cm_sw_r_mwn_dp_VT4QMG06XS904M6EEQ3A).
 
 ## Material usado no Curso de SQL
 
